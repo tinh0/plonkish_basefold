@@ -13,6 +13,7 @@ mod kzg;
 mod zeromorph;
 mod zeromorph_fri;
 mod basefold;
+mod deepfold;
 pub use brakedown::{
     MultilinearBrakedown, MultilinearBrakedownCommitment, MultilinearBrakedownParams,
 };
@@ -28,6 +29,7 @@ pub use kzg::{
 };
 pub use zeromorph::{Zeromorph, ZeromorphKzgProverParam, ZeromorphKzgVerifierParam};
 pub use zeromorph_fri::{ZeromorphFri, ZeromorphFriProverParam, ZeromorphFriVerifierParam};
+pub use deepfold::{DeepFold, DeepFoldParams, DeepFoldCommitment};
 
 fn validate_input<'a, F: Field>(
     function: &str,

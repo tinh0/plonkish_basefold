@@ -7,6 +7,8 @@ pub mod expression;
 pub mod hash;
 pub mod parallel;
 mod timer;
+pub mod deepfold_backend;
+pub mod deepfold_util;
 pub mod ff_255;
 pub mod goldilocksMont;
 pub mod transcript;

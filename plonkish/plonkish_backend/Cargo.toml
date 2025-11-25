@@ -25,6 +25,17 @@ blake2b_simd = "1.0.2"
 blake2={version = "0.10.6"}
 poseidon = { git = "https://github.com/han0110/poseidon", branch = "feature/with-spec" }
 rand_chacha={version ="0.3.1", features=["serde1"]}
+
+csv = "1.3.0"
+blake3 = "1.3"
+rs_merkle = "1.3"
+hex = "0.4"
+ff-derive-num = "0.2"
+halo2curves = { git = "https://github.com/zhenfeizhang/halo2curves" }
+p3-mersenne-31 = { git = "https://github.com/Plonky3/Plonky3" }
+p3-field = { git = "https://github.com/Plonky3/Plonky3" }
+once_cell = "1.19"
+
 # timer
 ark-std = { version = "^0.4.0", default-features = false, optional = true }
 
